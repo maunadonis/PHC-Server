@@ -42,13 +42,13 @@ echo '{
   "listen": ":5666",
   "cert": "/etc/hysteria/hysteria.crt",
   "key": "/etc/hysteria/hysteria.key",
-  "up_mbps": 100,
-  "down_mbps": 100,
+  "up_mbps": 4,
+  "down_mbps": 5,
   "disable_udp": false,
-  "obfs": "vpnudp",
+  "obfs": "BilisarilingServer",
   "auth": {
     "mode": "passwords",
-    "config": ["vpnudp1", "firenetdev"]
+    "config": ["BilisarilingServer", "BilisarilingServer"]
   }
 }
 ' >> /etc/hysteria/config.json
