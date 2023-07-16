@@ -2,12 +2,9 @@
   "listen": ":5666",
   "cert": "/etc/zivpn/zivpn.crt",
   "key":  "/etc/zivpn/zivpn.key",
-  "up_mbps": 4,
-  "down_mbps": 5,
-  "disable_udp": false,
-  "obfs": "BilisarilingServer",
+  "obfs":"BilisarilingServer",
   "auth": {
-    "mode": "passwords",
-    "config": ["BilisarilingServer", "BilisarilingServer"]
+    "mode": "passwords", 
+    "config": ["BilisarilingServer"]
   }
 }
