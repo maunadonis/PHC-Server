@@ -1,7 +1,7 @@
-echo '{
+{
   "listen": ":5666",
-  "cert": "/etc/hysteria/hysteria.crt",
-  "key": "/etc/hysteria/hysteria.key",
+  "cert": "/etc/zivpn/zivpn.crt",
+  "key":  "/etc/zivpn/zivpn.key",
   "up_mbps": 4,
   "down_mbps": 5,
   "disable_udp": false,
@@ -10,4 +10,4 @@ echo '{
     "mode": "passwords",
     "config": ["BilisarilingServer", "BilisarilingServer"]
   }
-}￼Enter
+}
